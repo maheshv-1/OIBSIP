@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Sectors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 60%;
+            margin: 20px auto;
+        }
+        h1 {
+            color: #fff;
+            background-color: #007BFF;
+            padding: 15px;
+            margin: 0;
+            border-radius: 5px 5px 0 0;
+        }
+        .sector {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 4px 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .sector:hover {
+            transform: scale(1.05);
+            box-shadow: 6px 6px 20px rgba(0,0,0,0.15);
+        }
+        .sector img {
+            width: 60px;
+            height: 60px;
+        }
+        .sector h2 {
+            color: #007BFF;
+            margin: 0;
+        }
+        .sector p {
+            font-size: 18px;
+            color: #333;
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Top Performing Stocks by Sector (1-Year Return)</h1>
+        <div class="sector">
+            <img src="tech_icon.png" alt="Technology Icon">
+            <div>
+                <h2>Technology</h2>
+                <p>Stock: Mazagon Dock Shipbuilders - 144.33% Return</p>
+            </div>
+        </div>
+        <div class="sector">
+            <img src="health_icon.png" alt="Healthcare Icon">
+            <div>
+                <h2>Healthcare</h2>
+                <p>Stock: Wockhardt - 147.64% Return</p>
+            </div>
+        </div>
+        <div class="sector">
+            <img src="energy_icon.png" alt="Energy Icon">
+            <div>
+                <h2>Energy</h2>
+                <p>Stock: Lloyds Metals & Energy - 103.53% Return</p>
+            </div>
+        </div>
+        <div class="sector">
+            <img src="finance_icon.png" alt="Finance Icon">
+            <div>
+                <h2>Finance</h2>
+                <p>Stock: City Pulse Multiplex Limited - 933.36% Return</p>
+            </div>
+        </div>
+        <div class="sector">
+            <img src="consumer_icon.png" alt="Consumer Goods Icon">
+            <div>
+                <h2>Consumer Goods</h2>
+                <p>Stock: The Anup Engineering - 116.13% Return</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
